@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace AdventOfCode2024;
+
+var totalDistance = DistanceCalculator.Calculate("input.txt");
+Console.WriteLine(totalDistance);
