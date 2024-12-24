@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "advent-of-code-2024", "src\advent-of-code-2024.csproj", "{B4F34714-3787-43B6-9A87-ED8D26152A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent-of-code-2024.Tests", "test\Advent-of-code-2024.Tests.csproj", "{A6BE740E-8C23-41DF-B3B2-728B4BF35DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F34714-3787-43B6-9A87-ED8D26152A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F34714-3787-43B6-9A87-ED8D26152A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F34714-3787-43B6-9A87-ED8D26152A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F34714-3787-43B6-9A87-ED8D26152A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BE740E-8C23-41DF-B3B2-728B4BF35DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BE740E-8C23-41DF-B3B2-728B4BF35DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BE740E-8C23-41DF-B3B2-728B4BF35DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BE740E-8C23-41DF-B3B2-728B4BF35DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
