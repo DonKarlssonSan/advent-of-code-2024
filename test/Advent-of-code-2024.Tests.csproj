@@ -19,7 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\src\advent-of-code-2024.csproj" />
   </ItemGroup>
-    <ItemGroup>
+  <ItemGroup>
     <None Update="01\input.txt">
       <Link>%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

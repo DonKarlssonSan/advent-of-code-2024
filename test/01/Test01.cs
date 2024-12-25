@@ -1,4 +1,5 @@
 using AdventOfCode2024;
+using Xunit;
 
 namespace AdventOfCode2024.Tests;
 
