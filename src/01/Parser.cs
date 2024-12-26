@@ -1,8 +1,8 @@
-
 namespace AdventOfCode2024;
-public class DistanceCalculator {
 
-  public static int Calculate(string fileName) {
+public static class Parser {
+
+  public static (List<int>, List<int>) ParseAndSort(string fileName) {
     var rows = File.ReadAllLines(fileName);
     List<int> firstColumn = new();
     List<int> secondColumn = new();
@@ -15,18 +15,6 @@ public class DistanceCalculator {
     }
     firstColumn.Sort();
     secondColumn.Sort();
-    return TotalDistance(firstColumn, secondColumn);
-  }
-  private static int Distance(int a, int b) {
-    return Math.Abs(a - b);
-  }
-
-  private static int TotalDistance(List<int> a, List<int> b) {
-    var lenght = a.Count;
-    var sum = 0;
-    for(var i = 0; i < lenght; i++) {
-      sum += Distance(a[i], b[i]);
-    }
-    return sum;
+    return (firstColumn, secondColumn);
   }
 }
