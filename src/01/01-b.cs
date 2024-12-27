@@ -1,6 +1,6 @@
 namespace AdventOfCode2024;
 
-public class SimilarityCalculator
+public static class SimilarityCalculator
 {
   public static int Calculate(string fileName)
   {

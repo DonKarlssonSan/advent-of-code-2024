@@ -1,6 +1,6 @@
 
 namespace AdventOfCode2024;
-public class DistanceCalculator
+public static class DistanceCalculator
 {
   public static int Calculate(string fileName)
   {
