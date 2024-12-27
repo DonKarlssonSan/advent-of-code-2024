@@ -11,3 +11,6 @@ Console.WriteLine($"Number of safe reports: {nrOfSafeReports}");
 
 var nrOfSafeReportsB = ReportCheckerB.CountSafeReports("./src/02/input02.txt");
 Console.WriteLine($"Number of safe reports, using Problem Dampener: {nrOfSafeReportsB}");
+
+var sum = Multiplier.ParseResult("./src/03/input03.txt");
+Console.WriteLine($"Sum of multiplications: {sum}");
