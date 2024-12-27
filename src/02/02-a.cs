@@ -1,6 +1,5 @@
-using System.Reflection.Metadata.Ecma335;
-
 namespace AdventOfCode2024;
+
 public static class ReportChecker
 {
   public static bool IsRowSafe(string row)

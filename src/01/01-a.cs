@@ -1,5 +1,5 @@
-
 namespace AdventOfCode2024;
+
 public static class DistanceCalculator
 {
   public static int Calculate(string fileName)
