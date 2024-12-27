@@ -1,15 +1,16 @@
 namespace AdventOfCode2024;
 
-public static class Parser {
+public static class Parser
+{
 
-  public static (List<int>, List<int>) ParseAndSort(string fileName) {
+  public static (List<int>, List<int>) ParseAndSort(string fileName)
+  {
     var rows = File.ReadAllLines(fileName);
     List<int> firstColumn = new();
     List<int> secondColumn = new();
-    foreach(var row in rows) {
-      // Console.WriteLine("row:" + row);
+    foreach(var row in rows)
+    {
       var columns = row.Split("   ");
-      // Console.WriteLine(columns);
       firstColumn.Add(int.Parse(columns[0]));
       secondColumn.Add(int.Parse(columns[1]));
     }
